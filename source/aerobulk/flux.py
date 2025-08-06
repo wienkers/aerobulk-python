@@ -377,7 +377,7 @@ def skin(
     """
 
     _check_algo(algo, VALID_ALGOS_SKIN)
-    
+
     if rad_sw is None:
         raise ValueError("rad_sw is required and cannot be None")
     if rad_lw is None:
